@@ -27,7 +27,9 @@ const dummyContacts = [
               <td>Phone</td>
             </tr>
             {
-               // Map over data here
+               {contacts.map((contact) => (
+                <ContactRow key={contact.id} contact={contact} />
+              ))}
              }
           </tbody>
         </table>
