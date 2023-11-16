@@ -1,8 +1,7 @@
 import React from "react";
 import App from "../App";
 
-export default App
-const ContactList = () => {
+ const ContactList = () => {
     return ( 
         <table>
           <thead>
@@ -23,3 +22,4 @@ const ContactList = () => {
         </table>
     ); 
 }
+export default ContactList;
