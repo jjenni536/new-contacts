@@ -6,7 +6,7 @@ return (
         <td>{contact.phone}</td>
         <td>{contact.email}</td>
     </tr>
-);
-}
+    );
+};
 
 export default ContactRow;
